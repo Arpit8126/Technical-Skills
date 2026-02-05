@@ -4,7 +4,7 @@ public class Product_array {
         int product=1;
         int [] product_array=new int[arr.length];
         for(int i=0;i<arr.length;i++){
-            product*=arr[i]
+            product*=arr[i];
         }
         for(int i=0;i<arr.length;i++){
             product_array[i]=product/arr[i];
