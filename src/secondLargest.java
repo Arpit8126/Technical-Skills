@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Integer;
 public class secondLargest {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -10,7 +11,7 @@ public class secondLargest {
             arr[i]=sc.nextInt();
         }
         int max=arr[0];
-        int second_max=-1;
+        int second_max=Integer.MIN_VALUE;
         for(int element:arr){
             if(element>max){
                 second_max=max;
